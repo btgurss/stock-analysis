@@ -5,7 +5,7 @@ Steve is looking to analyze a set of green energy stocks.  He has a spreadsheet 
 This particular task required the programmer to complete code that would decrease the run time of the initial program.  When I first went through the module, the code was effective in providing the correct information, but was not as speedy as it needed to be.  This may not cause problems now, but could be an issue with larger amounts of data.  In order to speed up the process I used 4 different arrays.  The first array was declared as a string and named tickers.  This was used in the original module.  The second array was declared as a long as was labeled as tickerVolumes.  This array was used to help add up the total amount of trading from a company (ticker) in a given year.  The third and fourth arrays were set up to keep track of the staring and ending ticker prices.  This was used to help determine if the stock price increased or decreased and by what percent.  I also used a counter to help keep track of which part of the array was being indexed.
 ### Array Purpose
 The purpose of the arrays in this instance was to save data to variables while only counting through every row of data one time.  In the module, the program was set up to read through every row of data for each of the different ticker symbols.  By using arrays, I was able to only run through the entire set of data once, thereby significantly decreasing the run time.   
-##Results
+## Results
 My program run time went from somewhere around 0.8 - 0.9 seconds to .08 - .09 seconds.  This would be expected after the refactoring that was completed.
 Images for Each Part 
 
