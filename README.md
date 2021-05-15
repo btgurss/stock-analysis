@@ -7,6 +7,7 @@ This particular task required the programmer to complete code that would decreas
 The purpose of the arrays in this instance was to save data to variables while only counting through every row of data one time.  In the module, the program was set up to read through every row of data for each of the different ticker symbols.  By using arrays, I was able to only run through the entire set of data once, thereby significantly decreasing the run time.   
 ## Results
 My program run time went from somewhere around 0.8 - 0.9 seconds to .08 - .09 seconds.  This would be expected after the refactoring that was completed.
+
 ![VBA_Challenge_Module_2017.png](VBA_Challenge_Module_2017.png), ![VBA_Challenge_Module_2018.png](VBA_Challenge_Module_2018.png)
 ![VBA_Challenge_2017.png](VBA_Challenge_2017.png), ![VBA_Challenge_2018.png](VBA_Challenge_2018.png)
 
